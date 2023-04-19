@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(to bottom, #23074d, #cc5333);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+#card{
+    width: 20%;
+    float: left;
+    border: black solid 1px;
+    
+}
+
+.card-secondary {
+    background-color: #22c1c3;
+}

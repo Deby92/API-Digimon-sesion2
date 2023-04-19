@@ -22,48 +22,46 @@
 <body>
   <nav class="navbar bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand text-info" href="#" target="_blank">Rick &
-        Morty</a>
+      <a class="navbar-brand text-warning" href="./index.html">Digimon</a>
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link text-info" href="https://rickandmortyapi.com/documentation/#rest">API Rick y Morty</a>
+          <a class="nav-link text-warning" href="https://digimon-api.vercel.app/" target="_blank">API Digimon</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-info" href="#">Link</a>
+          <a class="nav-link text-warning" href="#">Link</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-info" href="#" role="button" data-bs-toggle="dropdown"
+          <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             Options
           </a>
           <ul class="dropdown-menu bg-dark">
-            <li><a class="dropdown-item text-info" href="#">Especie</a></li>
-            <li><a class="dropdown-item text-info" href="#" onclick="mostrarImagenes()">Imagenes</a></li>
-            <li><a class="dropdown-item text-info" href="#">Something else here</a></li>
+            <li><a class="dropdown-item text-warning" href="#">Nivel</a></li>
+            <li><a class="dropdown-item text-warning" href="#" onclick="mostrarImagenes()">Imagenes</a></li>
           </ul>
         </li>
       </ul>
       <form class="d-flex" role="search">
         <input id="dato" class="form-control me-2 bg-dark text-secondary" type="search" placeholder="Nombre personaje" aria-label="Search">
-        <button class="btn btn-outline-info" type="button" onclick="capturaDato()">Buscar</button>
+        <button class="btn btn-outline-warning" type="button" onclick="capturaDato()">Buscar</button>
       </form>
     </div>
   </nav>
   <div id="carta"></div>
   <div id="galeria" class="card-secondary m-3 mt-3 mb-3"></div>
-  <table id="tabla_principal" class="table container text-secondary">
+  <table id="tabla_principal" class="table container text-dark">
     <thead>
       <tr>
         <th scope="col">Nombre</th>
         <th scope="col">Imagen</th>
-        <th scope="col">Especie</th>
+        <th scope="col">Nivel</th>
       </tr>
     </thead>
     <tbody id="contenido">
       <tr>
-        <th scope="row">Rick Sanchez</th>
-        <td>URL a imagen</td>
-        <td>Human</td>
+        <th scope="row">Digimon</th>
+        <td class="container-imagen">URL a imagen</td>
+        <td>Level</td>
       </tr>
     </tbody>
   </table>

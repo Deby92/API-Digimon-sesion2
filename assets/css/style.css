@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #23074d, #cc5333);
+    background: linear-gradient(to right, #ff8008, #ffc837);;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -14,4 +14,8 @@ body {
 
 .card-secondary {
     background-color: #22c1c3;
+}
+
+.container-imagen {
+    border-radius: 50%;
 }

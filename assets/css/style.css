@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(to right, #ff8008, #ffc837);;
+    font-family: 'Bruno Ace SC', cursive;
+    background: linear-gradient(to right, #ff8008, #ffc837);
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -16,6 +17,3 @@ body {
     background-color: #22c1c3;
 }
 
-.container-imagen {
-    border-radius: 50%;
-}

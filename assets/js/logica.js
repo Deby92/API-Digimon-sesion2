@@ -28,14 +28,14 @@ function tarjeta(data) {
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">"NOMBRE: ${temp.name}"</h5>
+          <h4 class="card-title">"NOMBRE: ${temp.name}"</h4>
           <p class="card-text">ESPECIE: "${temp.level}"</p>
          </div>
       </div>
     </div>
   </div>
      `
-    }
+    }; 
 
 }
 
@@ -56,7 +56,27 @@ function mostrarImagenes() {
             </div>
             </div>
 `
-    }
+    };
+}
+
+function mostrarNiveles() {
+    let img = document.getElementById('galeria');
+    document.getElementById('tabla_principal').style.display = 'none';
+    document.getElementById('carta').style.display = 'none';
+    document.getElementById('galeria').style.display = 'block';
+
+    img.innerHTML = "";
+    for (let temp of dataImagenes) {
+        img.innerHTML += `
+            <div id="card" class="card">
+            <img src="${temp.img}" class="card-img-top" alt="imagen ${temp.name}"></img>
+            <div class="card-body">
+                <h6 class="card-title">${temp.name}</h6>
+                <p class="card-text">${temp.level}</p>
+            </div>
+            </div>
+`
+    };
 }
 
 function capturaDato() {
